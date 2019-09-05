@@ -30,6 +30,13 @@ if entered_year == '1983' or entered_year == '1995' or entered_year == '2007':
 ######################################################################
 # (Required) Task 2
 # TODO Ask the user for their friend's birth year
+print()
+
+entered_year = input("what about your closest friend? What year were they born?:")
+
+if entered_year == '1982' or entered_year == '1994' or entered_year == '2006':
+    print("A dog? cool, I've always liked dogs")
+
 
 
 # TODO Similar to above, check your friend's year using if conditionals, and print the correct animal for that year
